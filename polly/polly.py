@@ -17,10 +17,6 @@ EMOJI_TO_DAY = {
     '7⃣': 'Sunday',
 }
 
-@client.event
-async def on_ready():
-    print("The polly is ready!")
-
 async def _send_question(question):
     await client.wait_until_ready()
     channel = client.get_channel(int(os.environ.get('CHANNEL_ID')))

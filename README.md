@@ -12,12 +12,12 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Add your bot token/channel ID to the `.env` file and source it
+Add your bot token/channel ID to the `.env` file
 ```
-source .env
+vim .env
 ```
 
-## Run
+## Test/Run
 ```
 python polly/polly.py
 ```
