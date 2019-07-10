@@ -1,8 +1,0 @@
-Weaboo whenday and where?
-:one::Monday
-:two::Tuesday
-:three::Wednesday
-:four::Thursday
-:five::Friday
-:six::Saturday
-:seven::Sunday

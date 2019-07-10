@@ -12,15 +12,17 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Then add your bot token/channel ID to the `.env` file
+Add your bot token/channel ID to the `.env` file and source it
+```
+source .env
+```
 
-
-Then, format the poll question you want posted in `polly/poll_question.txt`.
+## Run
+```
+python polly/polly.py
+```
 
 ## Build
-
-To build your lambda function, run:
-
 ```
 python setup.py ldist
 ```
