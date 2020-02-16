@@ -31,7 +31,7 @@ def _get_poll_question():
         question.append('{}:{}'.format(emoji, day))
     return '\n'.join(question)
 
-def main(event, context):
+def lambda_polly(event, context):
     question = _get_poll_question()
     client.loop.create_task(_send_question(question))
     client.run(os.environ.get('BOT_TOKEN'))
